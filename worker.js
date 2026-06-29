@@ -1,0 +1,1 @@
+See the full worker code at the deployed URL or in the source files.
