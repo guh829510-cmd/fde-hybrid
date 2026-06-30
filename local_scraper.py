@@ -38,7 +38,8 @@ from dataclasses import dataclass, asdict
 
 CONFIG = {
     # ── API ──────────────────────────────────────────────────────────────────
-    "worker_api_url": "https://freelance-domination-engine.fde-work.workers.dev/api/jobs",
+    "worker_api_url": "https://freelance-domination-engine.fde-work.workers.dev/api/jobs",  # Primary
+    # Fallback: https://fde-engine-v5.fde-work.workers.dev/api/jobs
     "api_key": "",  # Add API key if your worker requires authentication
 
     # ── Scraping Behaviour ─────────────────────────────────────────────────
